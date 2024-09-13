@@ -1,0 +1,18 @@
+<main>
+    <section>
+        <div class="cabecalho">
+            <img src="/assets/logo.png" alt="Logo da Empresa" class="logo">
+            <h2>{{title}}</h2>
+        </div>
+        <div class="form-section">
+            <ng-content></ng-content>
+                  <button (click)="submit()">{{primaryButonText}}</button>
+                  <div class="divider">
+                      <span>OU</span>
+                    </div>
+                    <button>{{secondaryButonText}}</button>
+                </div>
+            </section>
+        </main>
+
+   

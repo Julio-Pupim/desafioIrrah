@@ -1,0 +1,9 @@
+    <login-layout title="Acesse sua conta" primaryButonText="Login" secondaryButonText="Criar Conta"
+(submit)=submit()>
+
+        <form [formGroup]="loginForm">
+            <input type="email" formControlName="email" placeholder="email" required>
+            <input type="password" formControlName="senha" placeholder="senha" required>
+        </form>
+
+    </login-layout>
